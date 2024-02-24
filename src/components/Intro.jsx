@@ -4,7 +4,7 @@ import Title from "./Title";
 const Intro = () => {
   return (
     <div className="w-full bg-[#f3f5f8] flex flex-col items-center">
-        <div className="md:w-main flex flex-col items-center h-[500px]">
+        <div className="xl:w-main flex flex-col items-center">
         <Title 
         value={"A CREATIVE PORTFOLIO TEMPLATE"}
         />

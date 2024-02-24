@@ -1,15 +1,18 @@
 import React from "react";
-import { FortPolio, Intro, Jumbotron, ServiceGeneric, ServiceIphone } from "../components";
+import { Footer, FortPolio, Intro, Jumbotron, ServiceGeneric, ServiceIphone, Subscribe } from "../components";
+import Counter from "../components/Counter";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col scroll-smooth">
+    <div className=" flex flex-col scroll-smooth ">
         <Jumbotron />
         <Intro/>
         <ServiceGeneric/>
         <ServiceIphone/>
+        <Counter />
         <FortPolio/>
-        <div className="h-[1000px]"></div>
+        <Subscribe/>
+        <Footer/>
     </div>
   );
 };

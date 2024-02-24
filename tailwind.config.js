@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        main: '1140px'
+        main: '1280px'
       },
       boxShadow: {
         sm: "0 2px 4px 0 rgb(0 0 0 / 0.05)",
