@@ -8,7 +8,7 @@ const ServiceIphone = () => {
   return (
     <div className="flex-col items-center">
       <div className="flex flex-col lg:flex-row">
-        <div className="lg:w-1/2 lg:h-[800px] md:h-[600px] h-[400px] bg-[#f3f5f8] w-full relative">
+        <div className="lg:w-1/2 lg:h-[650px] md:h-[550px] h-[400px] bg-[#f3f5f8] w-full relative">
           <img
             className="h-full w-full object-contain lg:left-[250px] absolute"
             src={bg_main}
